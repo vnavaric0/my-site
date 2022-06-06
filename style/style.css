@@ -1,0 +1,2006 @@
+@import url("/fonts/stylesheet.css");
+* {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+ul {
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.company-logo {
+  min-width: 125px;
+  width: 12.85714%;
+  height: auto;
+  padding: 20px 0;
+  margin-left: 10px;
+}
+
+.headertcontent {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 4.27083%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: no-wrap;
+      flex-wrap: no-wrap;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.headertcontent .headerurl {
+  overflow-x: visible;
+  display: inline-block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 63px 0;
+}
+
+.headertcontent .headerurl:hover {
+  padding-bottom: 60px;
+  border-bottom: 3px solid #5C473D;
+}
+
+.headertcontent .headerurl a {
+  padding: 0 1.14583vw;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  text-align: start;
+  overflow-x: visible;
+  display: inline;
+  color: #3C2B23;
+  position: relative;
+}
+
+.headertcontent .headerurl a:not(.wborder)::after {
+  overflow: visible;
+  z-index: 4;
+  content: url("/img/border-rightheader.png");
+  position: absolute;
+  top: calc(50% - 10px);
+  right: 0;
+}
+
+.urls-to-sections {
+  overflow: visible;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.korz {
+  margin-left: 25px;
+  padding-right: 14px;
+}
+
+.korzdiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.desksearch {
+  width: 17.03125vw;
+  min-width: 150px;
+  padding: 0 20px;
+  height: 40px;
+  border: 1px solid #A78C70;
+  position: relative;
+  background: url("/img/inputsearch.png") no-repeat;
+  background-position: center right 6px;
+  font-family: 'Avenir LT 55 Roman';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+}
+
+.desksearch::-webkit-input-placeholder {
+  color: #A78C70;
+}
+
+.desksearch:-ms-input-placeholder {
+  color: #A78C70;
+}
+
+.desksearch::-ms-input-placeholder {
+  color: #A78C70;
+}
+
+.desksearch::placeholder {
+  color: #A78C70;
+}
+
+.desksearch:focus {
+  outline: 0px;
+}
+
+.mobilesearch {
+  display: none;
+}
+
+.headertext {
+  font-family: 'Avenir LT 55 Roman';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0.05em;
+}
+
+header {
+  margin: 0 auto;
+}
+
+.headeraction {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 16px;
+  line-height: 17px;
+  padding: 0px 84px;
+  letter-spacing: 0.05em;
+  min-height: 54px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #FFFFFF;
+  background: #31415B;
+}
+
+.headeraction .actionnumber {
+  font-family: 'Avenir LT 35';
+  margin-left: 25px;
+}
+
+.headeraction .action {
+  font-family: 'Avenir LT 65';
+  line-height: 16px;
+  font-weight: 400;
+}
+
+.headeraction .antext {
+  font-weight: 700;
+  color: #849EBD;
+  text-transform: uppercase;
+}
+
+.headeraction .facku > a {
+  font-family: 'Avenir LT 55 Roman';
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.headeraction .facku > a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.adda, .beautphoto {
+  overflow: hidden;
+}
+
+.adda {
+  width: 32.03125%;
+  height: auto;
+  display: inline-block;
+}
+
+.adda img {
+  width: 100%;
+  height: 100%;
+}
+
+.beautphoto {
+  width: 68.07292%;
+  height: auto;
+}
+
+.main-benefits {
+  margin-bottom: 100px;
+  padding: 50px 145px 0 145px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background: #F2EEEA;
+}
+
+.benefits-punct {
+  background: #F2EEEA;
+  padding-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.benefits-punct .imgwrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.benefits-punct img {
+  width: 65px;
+  height: 65px;
+}
+
+.benefits-punct h3 {
+  width: 300px;
+  font-family: 'Avenir LT 65';
+  font-weight: 700;
+  font-size: 22px;
+  min-height: 64px;
+  line-height: 30.21px;
+  letter-spacing: 0.02em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 13px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.benefits-punct div {
+  width: 340px;
+  font-family: 'Avenir LT 35';
+  letter-spacing: 0.02em;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 151.8%;
+}
+
+.benefits-picture2 {
+  max-width: 1274px;
+  margin: 0 auto 0 auto;
+}
+
+.benefits-picture-ph, .benefits-picture-pc, .benefits-picture2 {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 100px;
+}
+
+.benefits-picture-ph {
+  display: none;
+}
+
+.popular-reviews {
+  padding: 80px 111px;
+  background: #A78C70;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: space-between;
+      -ms-flex-align: space-between;
+          align-items: space-between;
+  margin-bottom: 100px;
+}
+
+.rewievli {
+  min-height: 145px;
+  width: 263px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.rewievli p {
+  font-family: 'Avenir LT 55';
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.rewievli img {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  max-height: 80px;
+}
+
+.rewievli .img-container {
+  height: 100%;
+  max-height: 80px;
+}
+
+.pillows-card {
+  background: #F6EFE9;
+}
+
+.w100hau {
+  width: 100vw;
+  height: auto;
+}
+
+.card-items {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-rows: 1fr;
+  grid-column-gap: 20px;
+  overflow: hidden;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 1410px;
+  margin: 0 auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.product-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: visible;
+  position: relative;
+}
+
+.product-card .more-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  position: relative;
+  bottom: 50px;
+  overflow: visible;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.product-card .more-info img {
+  width: 80%;
+}
+
+.product-card .more-info:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.product-card-in {
+  height: 95%;
+  margin-bottom: 25px;
+  padding: 30px;
+  background: #FFFFFF;
+  border: 1px solid #A68C71;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.product-card-in .price {
+  font-family: 'Avenir LT 65';
+  font-weight: 600;
+  font-size: 18px;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.product-card-in .price span {
+  color: #909090;
+  text-transform: uppercase;
+  font-size: 13px;
+  margin-right: 3px;
+  font-weight: 400;
+}
+
+.product-card-in .product-name {
+  font-family: 'Avenir LT 55 Roman';
+  font-size: 26px;
+  text-align: center;
+  font-weight: 400;
+  color: #55565B;
+}
+
+.product-card-in img {
+  margin: 6vw 0 7vw 0;
+  width: 100%;
+  height: auto;
+}
+
+.catalog {
+  margin: 33px 0  33px 0;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+}
+
+.catalog span {
+  font-family: 'Avenir LT 35';
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.49);
+}
+
+.catalog .active {
+  font-family: 'Avenir LT 55 Roman';
+  font-weight: 400;
+  color: #000000;
+}
+
+.absoluteblock {
+  position: absolute;
+}
+
+.pillowsabsolute {
+  height: 245px;
+  width: 410px;
+  background: #FFFFFF;
+  padding: 20px 25px;
+  position: absolute;
+  -webkit-box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.pillowsabsolute ul {
+  padding: 0;
+}
+
+.pillowsabsolute img {
+  margin-right: 17px;
+}
+
+.pillowsabsolute li {
+  font-family: 'Avenir LT 55 Roman';
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pillowsabsolute li:not(li:last-child) {
+  margin-bottom: 10px;
+}
+
+.products-img {
+  margin: 112px auto 36px auto;
+  display: block;
+}
+
+.product-about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.products-img {
+  width: 20.05208%;
+  min-width: 300px;
+  height: auto;
+}
+
+.product-about-left {
+  margin-right: 65px;
+  width: 61.91827%;
+}
+
+.product-about-left .product-img-zone {
+  border: 1px solid #A78C70;
+  display: inline-block;
+  width: 100%;
+  height: auto;
+}
+
+.product-about-left .product-img-zone img {
+  width: 100%;
+  height: auto;
+  padding: 0 10.05208%;
+}
+
+.product-about-left .imgabouts {
+  margin-top: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.product-about-left .imgabouts img {
+  width: 110px;
+  height: 110px;
+  margin-right: 12px;
+  margin-bottom: 12px;
+}
+
+.product-about-left .imgabouts .activeborder {
+  border: 1px solid #A78C70;
+}
+
+.product-about, .catalog {
+  max-width: 1762px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.product-about-right {
+  width: 34.39274%;
+}
+
+.product-about-right .product-name {
+  font-family: 'Avenir LT 65';
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+
+.product-about-right .reviews-section {
+  font-family: 'Avenir LT 65';
+  margin-top: 26px;
+  margin-bottom: 18px;
+  font-weight: 400;
+}
+
+.product-about-right .reviews-section img {
+  margin-right: 13px;
+}
+
+.product-about-right .reasonstobuy {
+  overflow-x: visible;
+  border-bottom: 2px solid #A78C70;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-family: 'Avenir LT 65';
+  line-height: 30.36px;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  font-weight: 400;
+  margin-bottom: 38px;
+  color: #3C2B23;
+}
+
+.product-about-right .reasonstobuy span {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  overflow-x: visible;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 28px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.product-about-right .reasonstobuy span:not(.active-border):hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  padding-bottom: 18px;
+}
+
+.product-about-right .reasonstobuy .active-border::after {
+  opacity: 1;
+  content: url("/img/active-border.png");
+  position: absolute;
+  top: 87%;
+}
+
+.product-about-right .descs {
+  margin-bottom: 34px;
+  width: 96.0396%;
+  font-family: 'Avenir LT 55 Roman';
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  margin-right: 0;
+  color: #3C2B23;
+}
+
+.product-about-right .descs *:not(img) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 19px;
+}
+
+.product-about-right .descs div {
+  width: 100%;
+}
+
+.product-about-right .descs .freasonimg {
+  margin-top: 2px;
+  width: 25.31px;
+  height: 15px;
+}
+
+.product-about-right .descs .d1 div {
+  margin-left: 16.69px;
+  letter-spacing: 0.02em;
+  line-height: 151.8%;
+}
+
+.awardsforpillows {
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.awardsforpillows img {
+  width: 145px;
+}
+
+.awardsforpillows li:not(:last-child) {
+  margin-right: 8px;
+}
+
+.awardsforpillows li {
+  margin-bottom: 12px;
+}
+
+.sizechoose, .colorchoose {
+  font-family: 'Avenir LT 35';
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.sizechoose b, .colorchoose b {
+  font-weight: 400;
+  font-family: 'Avenir LT 65';
+}
+
+.sizechoose .sizec {
+  margin-bottom: 19px;
+}
+
+.sizechoose b {
+  font-weight: 400;
+  font-family: 'Avenir LT 65';
+}
+
+.sizechoose label {
+  line-height: 47px;
+  display: inline;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding: 10px 1.66667vw;
+  border: 1px solid #3C2B23;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.sizechoose input {
+  display: none;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding: 10px 32px;
+  border: 1px solid #3C2B23;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.sizechoose input:checked + label {
+  border: 1px solid #A78C70;
+  background: #A78C70;
+  color: #FFFFFF;
+}
+
+.sizechoose .input-size-section {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.sizechoose .input-wrap {
+  margin-bottom: 30px;
+}
+
+.colorchoose {
+  margin-bottom: 30px;
+}
+
+.colorchoose input {
+  display: none;
+}
+
+.colorchoose label {
+  margin-right: 9px;
+  margin-bottom: 9px;
+  display: inline-block;
+  padding: 7px 0 5px 0;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  border: 1px solid #3C2B23;
+}
+
+.colorchoose {
+  margin-top: 18px;
+}
+
+.alsoadd {
+  margin-bottom: 31px;
+  color: #3C2B23;
+  font-size: 18px;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  font-family: 'Avenir LT 65';
+  font-weight: 400;
+}
+
+.alsoadd .withoutwrap {
+  width: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.alsoadd .alsoadd-buy {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 14px 20px;
+  -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.alsoadd .alsoadd-buy img:not(.addproduct) {
+  padding: 0.41667vw 0.20833vw;
+  border: 1px solid #D6C1A5;
+  margin-right: 0.9375vw;
+  width: 20%;
+  height: auto;
+}
+
+.alsoadd ul li:first-child {
+  margin-bottom: 9px;
+}
+
+.alsoadd .cost {
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.alsoadd ul {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin-top: 18px;
+  display: inline-block;
+  width: 90%;
+}
+
+.alsoadd .addproduct {
+  background-repeat: no-repeat;
+  display: block;
+  background: url("/img/productadd.png");
+  cursor: pointer;
+  width: 28px;
+  height: 28px;
+}
+
+.add-to-cart {
+  border: 1px solid #708BA7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.add-to-cart .first-section, .add-to-cart .sec-section {
+  width: 50%;
+  margin: 34px 0;
+}
+
+.add-to-cart .first-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding-right: 61px;
+  border-right: 1px solid #31415B;
+}
+
+.add-to-cart .sec-section {
+  padding-left: 61px;
+}
+
+.add-to-cart .sec-section span {
+  margin-right: 15px;
+  color: #708BA7;
+}
+
+.add-to-cart .gold-text, .add-to-cart span {
+  font: 700 24px/36px 'Avenir LT 65';
+  letter-spacing: 0.02em;
+  color: #A78C70;
+}
+
+.add-to-cart .stext, .add-to-cart ul {
+  font: 300 20px/30px 'Avenir LT 35';
+  letter-spacing: 0.02em;
+}
+
+.add-to-cart .stext {
+  margin-right: 16px;
+  color: #A78C70;
+}
+
+.add-to-cart span {
+  color: #31415B;
+  font-size: 28px;
+  line-height: 42.5px;
+}
+
+.add-to-cart .line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.add-to-cart ul li:first-child {
+  font-size: 18px;
+  color: #A78C70;
+  line-height: 20px;
+}
+
+.add-to-cart ul li:last-child {
+  color: #31415B;
+  font: 300 14px/15.65px 'Avenir LT 35';
+}
+
+.add-to-cart ul li:last-child a {
+  text-decoration: underline;
+  color: #31415B;
+}
+
+.add-to-cart-button {
+  font: 700 24px/36px 'Avenir LT 65';
+  width: 100%;
+  padding: 30px 0;
+  border: 0px;
+  color: #ffffff;
+  font-weight: 400;
+  background: #708BA7;
+}
+
+.product-about-left .product-img-zone img {
+  background: transparent;
+  overflow-x: visible;
+}
+
+.not-active {
+  display: none;
+}
+
+.product-about {
+  margin-bottom: 80px;
+}
+
+.small-benefits {
+  margin: 0 78px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.small-benefits li {
+  width: 250px;
+  font-size: 24px;
+  letter-spacing: 0.02em;
+  color: #5C473D;
+  font: 500 24px/34px 'Avenir LT 65';
+  text-align: center;
+}
+
+.small-benefits li img {
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 21px;
+}
+
+.newfont {
+  font: 400 48px/56px 'Bask';
+}
+
+.staycool {
+  margin: 0 auto;
+  margin-top: 110px;
+  padding: 110px 0;
+  background: #A78C7026;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.staycool .coolwrapper {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.staycool .rightimg {
+  width: 100%;
+  max-width: 928px;
+  height: auto;
+}
+
+.staycool li:not(:first-child) {
+  width: 100%;
+  font: 300 20px/31px 'Avenir LT 35';
+  margin-bottom: 14px;
+  letter-spacing: 0.02em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: left;
+}
+
+.staycool p {
+  font: 400 48px/56px 'Bask';
+}
+
+.staycool ul {
+  min-width: 400px;
+  width: 29.21875%;
+}
+
+.staycool .bigli {
+  margin-bottom: 45px;
+}
+
+.staycool .wimgli {
+  line-height: 24px;
+}
+
+.staycool .wimgli img {
+  margin-right: 24px;
+}
+
+.ourreviews {
+  padding: 111px 0;
+  background: #A78C70;
+}
+
+.ourreviews .newfont {
+  margin-bottom: 65px;
+}
+
+.ourreviews .reviews-section {
+  letter-spacing: 0.02em;
+  max-width: 1765px;
+  margin: 0 auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 320px;
+  grid-gap: 25px 20px;
+}
+
+.ourreviews .user-icon {
+  margin-right: 20px;
+}
+
+.ourreviews .user-name {
+  font: 700 24px/36px 'Avenir LT 65';
+  color: #3C2B23;
+}
+
+.ourreviews .date {
+  font: 300 16px/23px 'Avenir LT 35';
+  color: #5C473D;
+}
+
+.ourreviews .rev-text, .ourreviews .read-more {
+  font: 300 18px/26px 'Avenir LT 35';
+  text-align: left;
+}
+
+.ourreviews .review {
+  color: #3C2B23;
+}
+
+.ourreviews .read-more {
+  font-family: 'Avenir LT 65';
+  text-decoration: underline;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.ourreviews .rev-text {
+  margin-bottom: 12px;
+  overflow: hidden;
+  height: 128px;
+  width: 100%;
+}
+
+.ourreviews .stars {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  justify-self: flex-end;
+}
+
+.ourreviews .flex-line {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.ourreviews .review {
+  padding: 35px 30px;
+  background: #F2EEEA;
+}
+
+.ourreviews ul {
+  margin-right: auto;
+}
+
+.right {
+  margin-left: 0;
+  margin-right: 11.92708%;
+}
+
+.left {
+  margin-left: 11.92708%;
+}
+
+.also-like-section {
+  max-width: 1447px;
+  margin: 0 auto;
+  margin-bottom: 122px;
+}
+
+.also-like-section h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 65px;
+}
+
+.also-like-section .product-section {
+  color: #3C2B23;
+  margin: 0 auto;
+  width: 75.36458%;
+  min-width: 550px;
+  grid-gap: 50px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: auto;
+}
+
+.also-like-section .border-zone {
+  margin-bottom: 14px;
+  height: 446px;
+  border: 1px solid #A78C70;
+  padding: 21px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.also-like-section .border-zone img:not(.stars) {
+  width: 100%;
+  height: auto;
+}
+
+.also-like-section .border-zone .cost {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  font: 700 20px/30px 'Avenir LT 65';
+  letter-spacing: 0.02em;
+}
+
+.also-like-section .border-zone .stars {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.also-like-section .product-name {
+  margin-bottom: 13px;
+  font: 400 18px/24px 'Avenir LT 65';
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.also-like-section .moreinfo {
+  font: 400 20px/30px 'Avenir LT 65';
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  padding: 17px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 60px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  background: #A78C70;
+}
+
+footer {
+  gap: 50px;
+  position: relative;
+  height: 110%;
+  margin: 0 auto;
+  max-width: 1920px;
+  padding: 95px 4.0625%;
+  background: #5C473D;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #FFFFFF;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .newfont {
+  margin-bottom: 15px;
+  font: 400 40px/46px 'Bask';
+  text-decoration: underline;
+}
+
+footer li:not(.newfont) {
+  font: 300 20px/48px 'Avenir LT 35';
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+footer .allrights img {
+  width: 100%;
+  height: auto;
+}
+
+footer a {
+  color: #FFFFFF;
+}
+
+footer div {
+  display: inline-block;
+}
+
+footer .social-media {
+  margin-top: 24px;
+}
+
+footer .social-media img {
+  margin-right: 15px;
+}
+
+footer .ul-with-form input {
+  display: block;
+  width: 266px;
+  height: 49px;
+  font-size: 18px;
+  padding: 0 17px;
+}
+
+footer .footer-subscribe-button {
+  border: 0px;
+  padding: 3px 0;
+  width: 100%;
+}
+
+.care-center .care-wrapper {
+  margin: 0 auto;
+  max-width: 1920px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.care-center img {
+  width: 50.52083%;
+  height: auto;
+}
+
+.care-center .care-info {
+  margin-top: 235px;
+  margin-right: 8.33333%;
+  max-width: 596px;
+}
+
+.care-center .care-info h3 {
+  font: 400 60px/70px 'Bask';
+  font-family: Baskerville;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.care-center .care-info .info-text {
+  font: 300 20px/31px 'Avenir LT 35';
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.warranty-care {
+  background: url("/img/2part/bad-backgr.png");
+  padding: 110px 80px;
+  background-size: cover;
+}
+
+.warranty-care h3 {
+  overflow: hidden;
+  font: 400 48px/56px 'Bask';
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 65px;
+}
+
+.warranty-care .warranty-sections {
+  margin-bottom: 110px;
+  overflow: visible;
+  grid-gap: 20px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[5];
+      grid-template-columns: repeat(5, 1fr);
+  grid-auto-rows: 269px;
+}
+
+.warranty-care .warranty-section {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #D6C1A5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.warranty-care .warranty-section:hover {
+  position: relative;
+  overflow: visible;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.warranty-care .section-name {
+  color: #3C2B23;
+  margin-bottom: 41px;
+  font: 400 36px/42px 'Avenir LT 55';
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.warranty-care .url-to-sec {
+  font: 400 20px/30px 'Avenir LT 65';
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #5C473D;
+}
+
+.warranty-care .questions {
+  margin: 0 auto;
+  width: 74.21875%;
+  padding: 80px 34px 80px 93px;
+  background: #D6C1A5;
+}
+
+.warranty-care .questask {
+  margin-bottom: 37px;
+  color: #3C2B23;
+  border-bottom: 1px solid #3C2B23;
+}
+
+.warranty-care .question-text {
+  position: relative;
+  padding-bottom: 28px;
+  font: 400 24px/28px 'Avenir LT 65';
+  letter-spacing: 0em;
+}
+
+.warranty-care .question-text::after {
+  position: absolute;
+  right: 17px;
+  content: url("/img/2part/Vector.png");
+}
+
+.warranty-care .answer-text {
+  padding-bottom: 31px;
+  font: 400 20px/34px 'Avenir LT 55 Roman';
+  letter-spacing: 0em;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.warranty-care .questions-and-answers {
+  max-height: 461px;
+  overflow-y: scroll;
+}
+
+.input-korz {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  margin: 0;
+}
+
+.benefits-punct {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.benefits-punct h3 {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.site-menu-bar {
+  -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+          order: 3;
+  overflow: visible;
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.site-menu-bar .bar1, .site-menu-bar .bar2, .site-menu-bar .bar3 {
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 20px;
+  width: 35px;
+  padding: 2px 0;
+  min-height: 2px;
+  background: #A78C70;
+  margin-bottom: 6px;
+}
+
+.active-menu-bar .bar2 {
+  opacity: 0;
+}
+
+.active-menu-bar .bar3 {
+  -webkit-transform: translate(0, -8px) rotate(45deg);
+          transform: translate(0, -8px) rotate(45deg);
+}
+
+.active-menu-bar .bar1 {
+  -webkit-transform: translate(-1px, 12px) rotate(-45deg);
+          transform: translate(-1px, 12px) rotate(-45deg);
+}
+
+.royal-quality {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.royal-quality .crown {
+  width: 65px;
+  height: auto;
+}
+
+.royal-quality .container {
+  width: 100%;
+  position: relative;
+  max-width: 1920px;
+  background: url("/img/royaltherapyquality/brownline.png") center no-repeat;
+}
+
+.royal-quality .royal-about {
+  margin: 0 auto;
+  padding: 60px 20px 80px 20px;
+  background: url("/img/royaltherapyquality/adventure-bg.jpg") no-repeat center center/cover;
+  width: 64.01042%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.royal-quality .royal-about::before {
+  right: 85%;
+}
+
+.royal-quality .royal-about::after {
+  left: 85%;
+}
+
+.royal-quality .royal-about::before, .royal-quality .royal-about::after {
+  overflow: hidden;
+  position: absolute;
+  content: '';
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  top: 50%;
+  width: 170px;
+  height: 170px;
+  background: url("/img/royaltherapyquality/royal.png");
+  background-size: cover;
+}
+
+.royal-quality .royal-about-title {
+  text-align: center;
+  margin: 17px 0 25px 0;
+  font: 300 48px georgia;
+}
+
+.royal-quality .royal-about-text {
+  margin-bottom: 70px;
+  text-align: center;
+  font: 300 29px 'Avenir LT 55 Roman';
+}
+
+.royal-quality .royal-about-puncts {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.royal-quality .royal-about-punct {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font: 500 22px 'Avenir LT 55 Roman';
+}
+
+.royal-quality .royal-about-punct img {
+  margin-bottom: 17px;
+  width: 39px;
+  height: auto;
+  display: block;
+}
+
+@media screen and (max-width: 1800px) {
+  .product-about-left {
+    margin-right: 20px;
+  }
+  .card-items {
+    margin: 0 100px;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .headertcontent {
+    padding: 0;
+  }
+  .royal-quality .royal-about-punct {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1400px) and (min-width: 930px) {
+  .add-to-cart .first-section {
+    padding-right: 10px;
+  }
+  .add-to-cart .sec-section {
+    padding-left: 10px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .royal-quality .royal-about-text {
+    font-size: 25px;
+  }
+  .headertcontent .headerurl a {
+    font-size: 14px;
+  }
+  .royal-quality .royal-about-punct {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .product-about-right .descs .d1 div {
+    font-size: 16px;
+  }
+  .product-about-right .reasonstobuy span {
+    font-size: 18px;
+  }
+  .product-about-right .product-name {
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 1223px) {
+  .sizechoose .input-size-section {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width: 1222px) {
+  .sizechoose .sizec {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .alsoadd .alsoadd-buy img:not(.addproduct) {
+    width: 25%;
+  }
+  .alsoadd .alsoadd-buy {
+    padding: 0;
+  }
+  .alsoadd .withoutwrap {
+    width: 70%;
+    font-size: 15px;
+  }
+  .royal-quality .royal-about-text {
+    font-size: 23px;
+  }
+  .headertcontent .headerurl a {
+    padding: 8px;
+  }
+  .royal-quality .royal-about-punct {
+    margin: 0 20px;
+  }
+  .headertcontent .headerurl {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  .headeraction {
+    display: none;
+  }
+  .card-items {
+    margin: 0 30px;
+  }
+}
+
+@media screen and (max-width: 1100px) and (min-width: 930px) {
+  .add-to-cart .gold-text, .add-to-cart .line {
+    width: 100%;
+  }
+  .add-to-cart {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    text-align: center;
+  }
+  .add-to-cart .line {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .add-to-cart .first-section, .add-to-cart .sec-section {
+    width: 100%;
+    margin: 0;
+    padding: 24px 0;
+  }
+  .add-to-cart .first-section {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border: 0px;
+    border-bottom: 2px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(270deg, rgba(167, 140, 112, 0.01) 1.04%, #A78C70 48.44%, rgba(167, 140, 112, 0) 100%);
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .product-about-right .product-name {
+    margin-top: 10px;
+  }
+  .product-about {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .product-about-left {
+    width: 85%;
+    margin: 5px 0 0 0;
+  }
+  .product-about-right {
+    padding: 10px;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    width: 100%;
+  }
+  .main-benefits {
+    -webkit-box-ordinal-group: 5;
+        -ms-flex-order: 4;
+            order: 4;
+  }
+}
+
+@media screen and (max-width: 762px) {
+  .main-benefits {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+  .benefits-punct div {
+    width: 100%;
+  }
+  .benefits-punct h3 {
+    width: 90%;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    justify-self: flex-start;
+  }
+  .benefits-picture-pc {
+    display: none;
+  }
+  .benefits-picture-ph {
+    display: block;
+  }
+  .card-items {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .card-items {
+    margin: 0 5px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .main-benefits {
+    padding: 20px 10px 10px 10px;
+  }
+  .benefits-punct h3 {
+    font-size: 20px;
+  }
+  .benefits-punct div {
+    font-size: 15px;
+  }
+  .royal-quality .royal-about-text {
+    font-size: 21px;
+  }
+  .popular-reviews {
+    padding: 30px;
+    display: -ms-grid;
+    display: grid;
+    grid-auto-rows: 1fr;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px 30px;
+  }
+  .rewievli {
+    width: auto;
+    min-height: none;
+  }
+  .rewievli img {
+    width: 100%;
+    height: auto;
+  }
+  .rewievli .img-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .pillowsabsolute {
+    display: none;
+  }
+  .site-menu-bar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 12px 0;
+  }
+  .headertcontent {
+    top: 0;
+    z-index: 5;
+    width: 100%;
+    background: #FFFFFF;
+    position: fixed;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .urls-to-sections {
+    background: #FFFFFF;
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+    padding: 20px;
+    width: 100%;
+    display: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .urls-to-sections .headerurl {
+    width: 100%;
+    padding: 0 0 16px 0;
+  }
+  .urls-to-sections .headerurl:hover {
+    padding: 0 0 13px 0;
+  }
+  .urls-to-sections .headerurl a {
+    width: 100%;
+  }
+  .headertcontent .headerurl a:not(.wborder)::after {
+    display: none;
+  }
+  .disflex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .headertcontent .headerurl a {
+    font-size: 15px;
+  }
+  .hero {
+    margin-top: 78px;
+  }
+  .desksearch {
+    width: 25vw;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .royal-quality .royal-about-text {
+    font-size: 18px;
+  }
+  .royal-about-puncts .royal-about-punct {
+    font-size: 15px;
+  }
+  .royal-about-puncts {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .royal-about-puncts .royal-about-punct {
+    margin: 0 20px 30px 20px;
+  }
+  .royal-quality .royal-about {
+    padding-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .hero {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .hero img, .hero a {
+    width: 100%;
+    height: auto;
+  }
+  .hero a {
+    margin: 0 0 -4px 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .popular-reviews {
+    padding: 20px 10px;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .card-items {
+    grid-column-gap: 5px;
+  }
+  .benefits-punct h3 {
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .benefits-punct div {
+    font-size: 15px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
